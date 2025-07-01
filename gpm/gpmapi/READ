@@ -1,0 +1,36 @@
+GPM-API v1.0 BETA
+(Interpreter v1.0 Build 1)
+
+
+Gpm (Git Package Manager) API can speed up downloading packages using a full
+scale Package installation that is fully automated based on GPM-Api scripts.
+
+Gpm-API can speed up large scale Package operations by feeding instructions
+to the GPM Api runtime.
+
+Please note; the GPM-API runtime is not good with spaces so it is recommended
+to use _ as spaces.
+
+Recommended usage:
+[REPO_LINKS]
+https://github.com/Banshee302/oSNAKE.git
+[AUTOBUILD_DIR]
+/usr/bin/gpm-autobuild
+[OUTPUT_DIR]
+/home/edin/Downloads/gpmapi/output
+[LOG_FILE]
+true
+
+(end)
+
+Please note; make sure there are no empty lines in a section, this can cause errors in parsing that are not ideal. Make sure to format your instructions properly.
+
+Also make sure to note that you MUST format your GPM API Scripts as .gapi
+file extension or else it wont be processed by the runtime.
+
+This can help speed up Package installations on large scale operations majorly if you use it properly.
+
+Think of this API like Compose for docker but for the GPM Package Manager.
+
+
+**THIS PROGRAM EXPECTS YOU TO BE IN A UNIX/LINUX COMMAND LINE.**
