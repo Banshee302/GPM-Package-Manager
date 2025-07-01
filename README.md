@@ -1,5 +1,5 @@
 GPM, The Unofficial Git Package Manager.
-You can do configurations using the N-curses CLI menu configuration's before you build - please note, this is ONLY for pre-build configurations and to change your configurations you would need to rerun the Menu Configuration file and then rebuild and then install the rebuilt Package Manager.
+You can do configurations using the dialogue packages based CLI menu configuration's before you build - please note, this is ONLY for pre-build configurations and to change your configurations you would need to rerun the Menu Configuration file and then rebuild and then install the rebuilt Package Manager.
 
 GPM works by Cloning Git (including GitHub or Gitlab repository) repositories - it mainly uses HTTPS to clone but has a SSH feature now.
 
